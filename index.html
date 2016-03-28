@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tilicon Demo 1.1</title>
+	<meta name ="keywords" content= "background generator,icons to background,icons,tiling,background,shower,noun project API,Coral, Coral Xinting He, API">
+	<meta name="description" content= "Tiling your favorite icons!">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type ="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<link href='https://fonts.googleapis.com/css?family=Righteous|Josefin+Slab:400,100' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+	<div class='displayPage'>
+		<div class="indexSearch wrapper">
+			<h1>Tiling Your Favorite Icons!</h1>
+			<h2>Search, select, click, and save</h2>
+			<form action="">
+				<svg class='searchIcon' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><g><path d="M83.535,76.464L64.438,57.368C67.935,52.462,70,46.469,70,40c0-16.542-13.458-30-30-30S10,23.458,10,40s13.458,30,30,30   c6.469,0,12.462-2.065,17.368-5.562l19.097,19.097C77.44,84.512,78.721,85,80,85s2.56-0.488,3.535-1.464   C85.488,81.583,85.488,78.417,83.535,76.464z M40,60c-11.046,0-20-8.954-20-20s8.954-20,20-20s20,8.954,20,20S51.046,60,40,60z"/></g></svg>
+				<input class ='indexSearchBar' type="text" placeholder='Find something you like, or you can try "bunny" "moon" "fractal"...'>
+				<input class='searchBtn' id='search' type="submit" value='Gimme icons!'>
+			</form>
+		</div>
+		
+		<div class="iconBar">
+			<div class="wrapper"><form></form></div>
+			<!-- this is a preview of the display -->
+			<!-- <div class="iconList">
+					<input type="checkbox" id="1" data-url:'http://whatever'>
+					<label for="1"> 
+						<img src="https://d30y9cdsu7xlg0.cloudfront.net/png/1851-84.png" alt="search result">
+					</label>
+				</div> -->
+		</div>
+		<div class="iconTable">
+			<div class='icons wrapper'>
+
+		
+			<!-- this is a preview of the display too-->
+			<!--<div class="selectedIcons">
+					<img src="https://d30y9cdsu7xlg0.cloudfront.net/png/1851-84.png" alt="selected result">
+				</div>-->
+			
+			</div>
+
+		</div>
+	</div>
+
+	<div class="resultPage hide">
+		<nav class="selectSize">
+			<form action="">
+				<select name="canvasSize" id="canvasSize">
+		          <option value="smallScreen" data-width=375 data-height=627>375*627</option>
+		          <option value="mediumScreen" data-width=1024 data-height=768>1024*768</option>
+		          <option value="smallLaptop" data-width=1280 data-height=800>1280*800</option>
+		         
+	      		</select>
+			</form>
+			<button name='retile'>Retile!</button>
+
+		</nav>
+
+			
+
+		<main class='backgroundImage'>
+		 	<div id="container"></div>
+		 	<div class='buttons'>
+		 		<button type='button' name ='restart'>Start A New selection</button>
+		 		<button type='button' name='download' id='saver'>Download it!</button>
+		 	</div>
+		</main>
+	</div>
+
+
+	<!-- this is the preview of the background 
+<!-- 	<nav class="widgets">
+		<form action="">
+			<select name="animal" id="animal">
+          <option value="monkey">Monkeys</option>
+          <option value="eagle">Eagles</option>
+          <option value="dragon">Dragons</option>
+          <option value="elephant">Elephants</option>
+          <option value="centaur">Centaur</option>
+      </select>
+		</form>
+	</nav>
+	<main class="backgroundImage">
+		<div id="container"></div>
+	</main> -->
+
+
+<footer>
+	<div class='wrapper'>
+		<p class="credit">Developed with <a class="NounProject" href="https://thenounproject.com/">the Noun Project API</a></p>
+		<p class="coder">Created and coded with violent love by <a class="https://coralxhe.com/" href="#">Coral He.</a></p>
+	</div>
+</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/konvajs/konva/0.11.1/konva.min.js"></script>
+	<script src='js/apps.js'></script>
+	<script src ='js/animationJsControl.js'></script>
+	
+</body>
+
+
+
+</html>
+
+
+
+
